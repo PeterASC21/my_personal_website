@@ -1,0 +1,133 @@
+body 
+{
+    margin: 0;
+}
+
+#welcome_page
+{
+    background-image: url("images/background.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+#nav_bar
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+#greetings
+{
+    margin: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.items
+{
+    text-decoration: none;
+    color: white;
+}
+
+.items:hover
+{
+    background-color: grey;
+}
+
+#about_me_page_intro
+{ 
+    height: 500px;
+    text-align: center;
+}
+
+#about_me_page
+{
+    display: flex;
+    align-items: center; 
+}
+
+#hobbies_page_intro
+{
+    background-image: url("images/lightblue.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#hobbies_page
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#academics_page_intro
+{
+    text-align: center;
+    height: 550px;
+    padding: 20px;
+}
+
+#academics_page
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#a
+{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    border-style: solid;
+}
+
+.overline
+{
+    text-decoration-line: overline;
+}
+
+#working_page_intro
+{
+    background-image: url("images/lightblue.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#working_page
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bold
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contact_page_intro
+{
+    background-image: url("images/background.png");
+    height: 400px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
